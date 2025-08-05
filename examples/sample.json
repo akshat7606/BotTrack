@@ -1,0 +1,56 @@
+[
+  {
+    "page": "/billing",
+    "user_id": "leave_early",
+    "started_at": "2025-08-06T10:00:00Z",
+    "exited_at": "2025-08-06T10:01:00Z",
+    "messages": [
+      {"sender": "user", "message": "Hello?"}
+    ]
+  },
+  {
+    "page": "/returns",
+    "user_id": "negative_feedback",
+    "started_at": "2025-08-06T10:05:00Z",
+    "exited_at": "2025-08-06T10:06:00Z",
+    "messages": [
+      {"sender": "user", "message": "How do I return an item?"},
+      {"sender": "bot", "message": "Please go to the help page."},
+      {"sender": "user", "message": "I’m not satisfied with this."}
+    ]
+  },
+  {
+    "page": "/faq",
+    "user_id": "positive_feedback",
+    "started_at": "2025-08-06T10:10:00Z",
+    "exited_at": "2025-08-06T10:12:00Z",
+    "messages": [
+      {"sender": "user", "message": "How to contact support?"},
+      {"sender": "bot", "message": "Use our contact form."},
+      {"sender": "user", "message": "Thanks, that helped."}
+    ]
+  },
+  {
+    "page": "/refund-policy",
+    "user_id": "user_rephrase1",
+    "started_at": "2025-08-06T10:15:00Z",
+    "exited_at": "2025-08-06T10:17:00Z",
+    "messages": [
+      {"sender": "user", "message": "Can I get my money back?"},
+      {"sender": "bot", "message": "It depends on your plan."},
+      {"sender": "user", "message": "How do I request a refund?"},
+      {"sender": "bot", "message": "Please check your account settings."},
+      {"sender": "user", "message": "Where is the refund option?"}
+    ]
+  },
+  {
+    "page": "/track-order",
+    "user_id": "user_success",
+    "started_at": "2025-08-06T10:20:00Z",
+    "exited_at": "2025-08-06T10:22:00Z",
+    "messages": [
+      {"sender": "user", "message": "How do I track my order?"},
+      {"sender": "bot", "message": "You can track it under My Orders in your account dashboard."}
+    ]
+  }
+]
